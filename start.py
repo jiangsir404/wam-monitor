@@ -31,7 +31,8 @@ def process_github(html):
 	#print res[0].text
 	return res[0]
 
-def process_selector(selector,string):
+def process_selector(rules,string):
+	selector = rules.selector
 	soup = soup = bs(string,"html.parser")
 	if '.' in selector:
 		tag = selector.split('.')[0]
@@ -39,7 +40,7 @@ def process_selector(selector,string):
 		res = soup.find(name=tag,attrs=_class)
 		#print res 
 		if not res:
-			logger.error('wrong selector')
+			logger.error('%s app set wrong selector'%rule.corp)
 			exit()
 		return res
 
@@ -48,12 +49,11 @@ def process_selector(selector,string):
 		_class = {'id':selector.split('#')[1]}
 		res = soup.find(name=tag,attrs=_class)
 		if not res:
-			logger.error('wrong selector')
+			logger.error('%s app set wrong selector'%rule.corp)
 			exit()
 		return res 
 	else:
-		logger.error('selector error')
-		exit()
+		logger.error('%s app set wrong selector'%rule.corp)
 
 def process(rules):
 	for rule in rules:
@@ -63,10 +63,10 @@ def process(rules):
 			logger.error('%s无法访问'%rule.corp)
 			continue
 		elif rule.selector:
-			text = process_selector(rule.selector,html.text)
+			text = process_selector(rule,html.text)
 		elif rule.types == 'github':
-			selector = "div.repository-content"
-			text = process_selector(selector,html.text)
+			rule.selector = "div.repository-content"
+			text = process_selector(rule,html.text)
 		else:
 			text = html.text
 
@@ -90,7 +90,7 @@ def process(rules):
 				logger.info('添加新的监控app:%s'%rule.corp)
 				dataConfig.add_hash(rule.corp,html_md5)
 		else: #如果hash列表为空，则先初始化
-			logger.info('wam init ...')
+			logger.info('hash列表初始化中')
 			dataConfig.add_hash(rule.corp,html_md5)
 
 
