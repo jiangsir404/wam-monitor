@@ -90,7 +90,7 @@ def process(rules):
 				logger.info('添加新的监控app:%s'%rule.corp)
 				dataConfig.add_hash(rule.corp,html_md5)
 		else: #如果hash列表为空，则先初始化
-			logger.info('hash列表初始化中')
+			logger.info('wam init ....')
 			dataConfig.add_hash(rule.corp,html_md5)
 
 
