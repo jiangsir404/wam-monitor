@@ -1,0 +1,4 @@
+colorlog
+requests
+bs4
+configparser
