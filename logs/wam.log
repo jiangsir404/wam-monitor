@@ -13,3 +13,141 @@
 [32m2018-12-17 15:48:40,079 [WAM] [INFO] ggffgg no change[0m
 [32m2018-12-17 15:48:41,358 [WAM] [INFO] typecho no change[0m
 [32m2018-12-17 15:48:41,358 [WAM] [INFO] sleep 30s[0m
+[31m[47m2018-12-17 16:22:29,736 [WAM] [CRITICAL] get rules failed, rule types not found![0m
+[32m2018-12-17 16:22:35,821 [WAM] [INFO] rules length: 13[0m
+[32m2018-12-17 16:22:36,894 [WAM] [INFO] 74cms no change[0m
+[32m2018-12-17 16:22:37,065 [WAM] [INFO] destoon no change[0m
+[32m2018-12-17 16:22:37,141 [WAM] [INFO] zzcms no change[0m
+[32m2018-12-17 16:22:38,602 [WAM] [INFO] strut2 no change[0m
+[32m2018-12-17 16:22:38,938 [WAM] [INFO] tpshop no change[0m
+[32m2018-12-17 16:22:39,599 [WAM] [INFO] dedecms no change[0m
+[32m2018-12-17 16:22:39,805 [WAM] [INFO] metinfo no change[0m
+[31m2018-12-17 16:22:40,075 [WAM] [ERROR] PBootcms无法访问[0m
+[32m2018-12-17 16:22:42,150 [WAM] [INFO] thinkphp no change[0m
+[32m2018-12-17 16:22:43,436 [WAM] [INFO] thinkcmf no change[0m
+[32m2018-12-17 16:22:45,168 [WAM] [INFO] yii2 no change[0m
+[32m2018-12-17 16:22:46,351 [WAM] [INFO] ggffgg no change[0m
+[32m2018-12-17 16:22:48,042 [WAM] [INFO] typecho no change[0m
+[32m2018-12-17 16:22:48,042 [WAM] [INFO] sleep 30s[0m
+[32m2018-12-17 16:23:18,042 [WAM] [INFO] rules length: 13[0m
+[32m2018-12-17 16:23:18,246 [WAM] [INFO] 74cms no change[0m
+[32m2018-12-17 16:23:18,371 [WAM] [INFO] destoon no change[0m
+[32m2018-12-17 16:23:18,426 [WAM] [INFO] zzcms no change[0m
+[32m2018-12-17 16:23:19,470 [WAM] [INFO] strut2 no change[0m
+[32m2018-12-17 16:23:19,630 [WAM] [INFO] tpshop no change[0m
+[32m2018-12-17 16:23:19,767 [WAM] [INFO] dedecms no change[0m
+[32m2018-12-17 16:23:19,974 [WAM] [INFO] metinfo no change[0m
+[32m2018-12-17 16:23:21,101 [WAM] [INFO] PBootcms no change[0m
+[32m2018-12-17 16:23:22,483 [WAM] [INFO] thinkphp no change[0m
+[32m2018-12-17 16:23:23,727 [WAM] [INFO] thinkcmf no change[0m
+[32m2018-12-17 16:23:25,062 [WAM] [INFO] yii2 no change[0m
+[32m2018-12-17 16:23:26,071 [WAM] [INFO] ggffgg no change[0m
+[32m2018-12-17 16:23:27,293 [WAM] [INFO] typecho no change[0m
+[32m2018-12-17 16:23:27,293 [WAM] [INFO] sleep 30s[0m
+[31m[47m2018-12-17 16:23:40,720 [WAM] [CRITICAL] get rules failed, rule types not found![0m
+[32m2018-12-17 16:23:44,433 [WAM] [INFO] rules length: 5[0m
+[32m2018-12-17 16:23:46,358 [WAM] [INFO] wam init ...[0m
+[32m2018-12-17 16:23:47,484 [WAM] [INFO] 添加新的监控app:thinkcmf[0m
+[32m2018-12-17 16:23:49,131 [WAM] [INFO] 添加新的监控app:yii2[0m
+[31m2018-12-17 16:23:50,529 [WAM] [ERROR] ggffgg无法访问[0m
+[31m2018-12-17 16:23:52,079 [WAM] [ERROR] typecho无法访问[0m
+[32m2018-12-17 16:23:52,081 [WAM] [INFO] sleep 30s[0m
+[32m2018-12-17 16:23:57,295 [WAM] [INFO] rules length: 13[0m
+[32m2018-12-17 16:23:57,471 [WAM] [INFO] 添加新的监控app:74cms[0m
+[32m2018-12-17 16:23:57,563 [WAM] [INFO] 添加新的监控app:destoon[0m
+[32m2018-12-17 16:23:57,743 [WAM] [INFO] 添加新的监控app:zzcms[0m
+[32m2018-12-17 16:23:58,812 [WAM] [INFO] 添加新的监控app:strut2[0m
+[32m2018-12-17 16:23:58,993 [WAM] [INFO] 添加新的监控app:tpshop[0m
+[32m2018-12-17 16:23:59,141 [WAM] [INFO] 添加新的监控app:dedecms[0m
+[32m2018-12-17 16:23:59,338 [WAM] [INFO] 添加新的监控app:metinfo[0m
+[32m2018-12-17 16:23:59,697 [WAM] [INFO] 添加新的监控app:PBootcms[0m
+[32m2018-12-17 16:24:01,197 [WAM] [INFO] thinkphp no change[0m
+[32m2018-12-17 16:24:04,638 [WAM] [INFO] thinkcmf no change[0m
+[32m2018-12-17 16:24:06,359 [WAM] [INFO] yii2 no change[0m
+[32m2018-12-17 16:24:07,345 [WAM] [INFO] 添加新的监控app:ggffgg[0m
+[32m2018-12-17 16:24:08,871 [WAM] [INFO] 添加新的监控app:typecho[0m
+[32m2018-12-17 16:24:08,874 [WAM] [INFO] sleep 30s[0m
+[32m2018-12-17 16:24:38,874 [WAM] [INFO] rules length: 13[0m
+[32m2018-12-17 16:24:39,062 [WAM] [INFO] wam init ...[0m
+[32m2018-12-17 16:24:39,160 [WAM] [INFO] 添加新的监控app:destoon[0m
+[32m2018-12-17 16:24:39,226 [WAM] [INFO] 添加新的监控app:zzcms[0m
+[32m2018-12-17 16:24:40,262 [WAM] [INFO] wam init ...[0m
+[32m2018-12-17 16:24:40,423 [WAM] [INFO] 添加新的监控app:tpshop[0m
+[32m2018-12-17 16:24:40,585 [WAM] [INFO] 添加新的监控app:dedecms[0m
+[32m2018-12-17 16:24:40,819 [WAM] [INFO] 添加新的监控app:metinfo[0m
+[32m2018-12-17 16:24:41,155 [WAM] [INFO] 添加新的监控app:PBootcms[0m
+[32m2018-12-17 16:24:42,660 [WAM] [INFO] 添加新的监控app:thinkphp[0m
+[32m2018-12-17 16:24:44,217 [WAM] [INFO] 添加新的监控app:thinkcmf[0m
+[32m2018-12-17 16:24:45,697 [WAM] [INFO] 添加新的监控app:yii2[0m
+[32m2018-12-17 16:24:46,627 [WAM] [INFO] 添加新的监控app:ggffgg[0m
+[32m2018-12-17 16:24:49,138 [WAM] [INFO] 添加新的监控app:typecho[0m
+[32m2018-12-17 16:24:49,140 [WAM] [INFO] sleep 30s[0m
+[32m2018-12-17 16:25:19,141 [WAM] [INFO] rules length: 13[0m
+[32m2018-12-17 16:25:19,322 [WAM] [INFO] wam init ...[0m
+[32m2018-12-17 16:25:19,423 [WAM] [INFO] 添加新的监控app:destoon[0m
+[32m2018-12-17 16:25:19,492 [WAM] [INFO] 添加新的监控app:zzcms[0m
+[32m2018-12-17 16:25:20,566 [WAM] [INFO] 添加新的监控app:strut2[0m
+[32m2018-12-17 16:25:20,720 [WAM] [INFO] 添加新的监控app:tpshop[0m
+[32m2018-12-17 16:25:20,838 [WAM] [INFO] 添加新的监控app:dedecms[0m
+[32m2018-12-17 16:25:21,046 [WAM] [INFO] 添加新的监控app:metinfo[0m
+[32m2018-12-17 16:25:21,385 [WAM] [INFO] 添加新的监控app:PBootcms[0m
+[32m2018-12-17 16:25:22,674 [WAM] [INFO] 添加新的监控app:thinkphp[0m
+[32m2018-12-17 16:25:23,854 [WAM] [INFO] 添加新的监控app:thinkcmf[0m
+[32m2018-12-17 16:25:25,345 [WAM] [INFO] 添加新的监控app:yii2[0m
+[32m2018-12-17 16:25:26,503 [WAM] [INFO] 添加新的监控app:ggffgg[0m
+[32m2018-12-17 16:25:28,414 [WAM] [INFO] 添加新的监控app:typecho[0m
+[32m2018-12-17 16:25:28,414 [WAM] [INFO] sleep 30s[0m
+[32m2018-12-17 16:25:58,414 [WAM] [INFO] rules length: 13[0m
+[32m2018-12-17 16:25:58,598 [WAM] [INFO] 74cms no change[0m
+[32m2018-12-17 16:25:58,688 [WAM] [INFO] destoon no change[0m
+[32m2018-12-17 16:25:58,747 [WAM] [INFO] zzcms no change[0m
+[32m2018-12-17 16:25:59,786 [WAM] [INFO] strut2 no change[0m
+[32m2018-12-17 16:26:00,094 [WAM] [INFO] tpshop no change[0m
+[32m2018-12-17 16:26:00,273 [WAM] [INFO] dedecms no change[0m
+[32m2018-12-17 16:26:00,492 [WAM] [INFO] metinfo no change[0m
+[32m2018-12-17 16:26:00,826 [WAM] [INFO] PBootcms no change[0m
+[32m2018-12-17 16:26:02,438 [WAM] [INFO] thinkphp no change[0m
+[32m2018-12-17 16:26:03,780 [WAM] [INFO] thinkcmf no change[0m
+[32m2018-12-17 16:26:05,115 [WAM] [INFO] yii2 no change[0m
+[32m2018-12-17 16:26:06,204 [WAM] [INFO] ggffgg no change[0m
+[32m2018-12-17 16:26:07,571 [WAM] [INFO] typecho no change[0m
+[32m2018-12-17 16:26:07,571 [WAM] [INFO] sleep 30s[0m
+[32m2018-12-17 16:26:37,569 [WAM] [INFO] rules length: 13[0m
+[32m2018-12-17 16:26:37,736 [WAM] [INFO] 74cms no change[0m
+[32m2018-12-17 16:26:37,798 [WAM] [INFO] destoon no change[0m
+[32m2018-12-17 16:26:37,857 [WAM] [INFO] zzcms no change[0m
+[32m2018-12-17 16:26:38,908 [WAM] [INFO] strut2 no change[0m
+[32m2018-12-17 16:26:39,170 [WAM] [INFO] tpshop no change[0m
+[32m2018-12-17 16:26:39,342 [WAM] [INFO] dedecms no change[0m
+[32m2018-12-17 16:26:39,549 [WAM] [INFO] metinfo no change[0m
+[32m2018-12-17 16:26:39,950 [WAM] [INFO] PBootcms no change[0m
+[32m2018-12-17 16:26:41,338 [WAM] [INFO] thinkphp no change[0m
+[32m2018-12-17 16:26:42,815 [WAM] [INFO] thinkcmf no change[0m
+[32m2018-12-17 16:26:44,604 [WAM] [INFO] yii2 no change[0m
+[32m2018-12-17 16:26:45,773 [WAM] [INFO] ggffgg no change[0m
+[32m2018-12-17 16:26:47,296 [WAM] [INFO] typecho no change[0m
+[32m2018-12-17 16:26:47,296 [WAM] [INFO] sleep 30s[0m
+[32m2018-12-17 16:27:17,296 [WAM] [INFO] rules length: 13[0m
+[32m2018-12-17 16:27:17,467 [WAM] [INFO] 74cms no change[0m
+[32m2018-12-17 16:27:17,584 [WAM] [INFO] destoon no change[0m
+[32m2018-12-17 16:27:17,638 [WAM] [INFO] zzcms no change[0m
+[32m2018-12-17 16:27:18,742 [WAM] [INFO] strut2 no change[0m
+[32m2018-12-17 16:27:18,915 [WAM] [INFO] tpshop no change[0m
+[32m2018-12-17 16:27:19,121 [WAM] [INFO] dedecms no change[0m
+[32m2018-12-17 16:27:19,312 [WAM] [INFO] metinfo no change[0m
+[32m2018-12-17 16:27:19,680 [WAM] [INFO] PBootcms no change[0m
+[32m2018-12-17 16:27:21,223 [WAM] [INFO] thinkphp no change[0m
+[32m2018-12-17 16:27:22,474 [WAM] [INFO] thinkcmf no change[0m
+[32m2018-12-17 16:27:24,345 [WAM] [INFO] yii2 no change[0m
+[32m2018-12-17 16:27:25,434 [WAM] [INFO] ggffgg no change[0m
+[32m2018-12-17 16:27:27,055 [WAM] [INFO] typecho no change[0m
+[32m2018-12-17 16:27:27,056 [WAM] [INFO] sleep 30s[0m
+[32m2018-12-17 16:27:57,058 [WAM] [INFO] rules length: 13[0m
+[32m2018-12-17 16:27:57,236 [WAM] [INFO] 74cms no change[0m
+[32m2018-12-17 16:27:57,326 [WAM] [INFO] destoon no change[0m
+[32m2018-12-17 16:27:57,404 [WAM] [INFO] zzcms no change[0m
+[32m2018-12-17 16:27:58,434 [WAM] [INFO] strut2 no change[0m
+[32m2018-12-17 16:27:58,734 [WAM] [INFO] tpshop no change[0m
+[32m2018-12-17 16:27:58,904 [WAM] [INFO] dedecms no change[0m
+[32m2018-12-17 16:27:59,401 [WAM] [INFO] metinfo no change[0m
+[32m2018-12-17 16:27:59,799 [WAM] [INFO] PBootcms no change[0m

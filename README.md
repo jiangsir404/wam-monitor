@@ -3,9 +3,10 @@
 
 借鉴了蘑菇街的github监控工具[GSIL](https://github.com/FeeiCN/GSIL)  的思路和部分代码，感谢！
 
-## INSTALL
+## INSTALL & USE
 
 	pip install -r requirement.txt
+	python start.py
 
 修改config.ini的邮箱信息
 
@@ -54,5 +55,67 @@ message: 发送邮件的主题，默认可以不填写。
 - [x] 邮件通知
 - [x] 现在可监控13个cms的更新
 
+
 ## 功能截图
-![](1.jpg)
+![](example.jpg)
+
+## 可以监控的cms 
+```
+{
+	"github":{
+		"ggffgg":{
+			"url":"https://github.com/ggffgg123/ggffgg/commits/master",
+			"message":"这只是一个测试repo, 正式监控请删除该条记录"
+		},
+		"thinkphp":{
+			"url":"https://github.com/top-think/framework/commits/5.1",
+			"message":"thinkphp 有更新commit"
+		},
+		"yii2":{
+			"url":"https://github.com/yiisoft/yii2/commits/master",
+			"message":"yii2 有更新commit"
+		},
+		"thinkcmf":{
+			"url":"https://github.com/thinkcmf/thinkcmf/commits/master",
+			"message":"thinkcmf 有更新commit"
+		},
+		"typecho":{
+			"url":"https://github.com/typecho/typecho/commits/master"
+		}
+	},
+	"app":{
+		"zzcms":{
+			"url":"http://www.zzcms.net/about/6.htm",
+			"message":"zzcms 有更新版本"
+		},
+		"tpshop":{
+			"url":"http://www.tp-shop.cn/download/",
+			"selector":"div.download_body"
+		},
+		"metinfo":{
+			"url":"https://www.metinfo.cn/download/",
+			"selector":"ol.breadcrumb met-pinghei margin-vertical-20 padding-0 font-size-16"
+		},
+		"dedecms":{
+			"url":"http://www.dedecms.com/",
+			"selector":"div#down"
+		},
+		"destoon":{
+			"url":"http://www.destoon.com/download/",
+			"selector":"div#download"
+		},
+		"74cms":{
+			"url":"http://www.74cms.com/download/index.html",
+			"selector":"div.downright link_blue"
+		},
+		"PBootcms":{
+			"url":"https://www.pbootcms.com/changelog.html",
+			"selector":"div.container pages"
+		},
+		"strut2":{
+			"url":"https://cwiki.apache.org/confluence/display/WW/Security+Bulletins",
+			"selector":"div.page view"
+		}
+	}
+}
+```
