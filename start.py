@@ -25,11 +25,11 @@ def start(rule_types):
     logger.info('rules length: {rl}'.format(rl=len(rules)))
     return rules
 
-def process_github(html):
-	soup = bs(html.text,"html.parser")
-	res = soup.find_all(name="div", attrs={'class':'repository-content'})
-	#print res[0].text
-	return res[0]
+# def process_github(html):
+# 	soup = bs(html.text,"html.parser")
+# 	res = soup.find_all(name="div", attrs={'class':'repository-content'})
+# 	#print res[0].text
+# 	return res[0]
 
 def process_selector(rule,string):
 	selector = rule.selector
@@ -87,7 +87,7 @@ def process(rules):
 					logger.warning('%s has update'%rule.corp)
 					dataConfig.update_hash(rule.corp,html_md5)
 					context = '<a href={0}>{0}</a>'.format(rule.url)
-					Notification(rule.message,'rivirsec@163.com','').notification(context)
+					Notification(rule.message).notification(context)
 			else: #如果不存在该corp,则添加该hash
 				logger.info('添加新的监控app:%s'%rule.corp)
 				dataConfig.add_hash(rule.corp,html_md5)
@@ -96,20 +96,23 @@ def process(rules):
 			dataConfig.add_hash(rule.corp,html_md5)
 
 
-def test(app):
+# def test(app):
 	
-	#app = 'github'
-	rules = start(app)
-	#print rules
-	process(rules)
+# 	#app = 'github'
+# 	rules = start(app)
+# 	#print rules
+# 	process(rules)
 
 
 def monitor(app):
-	while(1):
-		rules = start(app)
-		process(rules)
-		logger.info('sleep 30s')
-		time.sleep(30)
+	try:
+		while(1):
+			rules = start(app)
+			process(rules)
+			logger.info('sleep 30s')
+			time.sleep(30)
+	except Exception,e:
+		Notification('WAM run error').notification(e)
 
 
 if __name__ == '__main__':
