@@ -31,8 +31,8 @@ def process_github(html):
 	#print res[0].text
 	return res[0]
 
-def process_selector(rules,string):
-	selector = rules.selector
+def process_selector(rule,string):
+	selector = rule.selector
 	soup = soup = bs(string,"html.parser")
 	if '.' in selector:
 		tag = selector.split('.')[0]
@@ -41,7 +41,7 @@ def process_selector(rules,string):
 		#print res 
 		if not res:
 			logger.error('%s app set wrong selector'%rule.corp)
-			exit()
+			return None
 		return res
 
 	elif '#' in selector:
@@ -50,10 +50,11 @@ def process_selector(rules,string):
 		res = soup.find(name=tag,attrs=_class)
 		if not res:
 			logger.error('%s app set wrong selector'%rule.corp)
-			exit()
+			return None
 		return res 
 	else:
 		logger.error('%s app set wrong selector'%rule.corp)
+		return None
 
 def process(rules):
 	for rule in rules:
@@ -69,7 +70,8 @@ def process(rules):
 			text = process_selector(rule,html.text)
 		else:
 			text = html.text
-
+		if text == None:
+			continue
 		hash_list = dataConfig.hash_list()
 		html_md5 = md5(text.encode('utf-8')) #text编码为unicode
 		if debug:
