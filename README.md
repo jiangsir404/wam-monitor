@@ -53,7 +53,7 @@ message: 发送邮件的主题，默认可以不填写。
 - [x] 监控github commit 信息
 - [x] 监控cms官网 版本更新
 - [x] 邮件通知
-- [x] 现在可监控18个cms的更新
+- [x] 现在可监控16个cms的更新
 
 
 ## 功能截图
@@ -127,10 +127,6 @@ message: 发送邮件的主题，默认可以不填写。
 		"joomla!3":{
 			"url":"https://www.joomla.org/announcements/release-news/",
 			"selector":"div.items-leading clearfix"
-		},
-		"drupal":{
-			"url":"https://www.drupal.org/security",
-			"selector":"div.content"
 		},
 		"ckeditor4":{
 			"url":"https://ckeditor.com/cke4/release-notes",
