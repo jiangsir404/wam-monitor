@@ -109,8 +109,8 @@ def monitor(app):
 		while(1):
 			rules = start(app)
 			process(rules)
-			logger.info('sleep 30s')
-			time.sleep(30)
+			logger.info('sleep 120s')
+			time.sleep(120)
 	except Exception,e:
 		Notification('WAM run error').notification(e)
 
