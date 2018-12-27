@@ -12,10 +12,14 @@ from log import logger
 import hashlib
 from download import Downloader
 from bs4 import BeautifulSoup as bs
+from notification import Notification
 
 
 md5 = lambda x:hashlib.new('md5',x).hexdigest()
 
+
+def test_send():
+	Notification('GSIL Exception test','rivirsec@163.com','').notification('111')
 
 def process_selector(selector,string):
 	soup = soup = bs(string,"html.parser")
@@ -42,9 +46,9 @@ def process_selector(selector,string):
 
 
 selector = "div.download_body" # tpshop selector
-selector = "div.repository-content" #GitHub selector
 selector = "ol.breadcrumb met-pinghei margin-vertical-20 padding-0 font-size-16" #metinfo selector
 selector = "div#download" #destoon
+selector = "div.commit-group-title" #GitHub selector
 
 def test_rule(url,regexp=''):
 	download = Downloader()
@@ -60,6 +64,6 @@ def test_rule(url,regexp=''):
 	else:
 		print md51,md52
 
-
-test_rule('http://www.destoon.com/download/')
+# test_send()
+test_rule('https://github.com/top-think/framework/commits/5.1')
 

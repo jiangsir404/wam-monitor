@@ -8,7 +8,7 @@ from smtplib import SMTPException
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from config import get
-from log import logger
+from colorprint import logger
 
 
 class Notification(object):

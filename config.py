@@ -6,7 +6,7 @@ import time
 import json
 import traceback
 import configparser
-from log import logger
+from colorprint import logger
 
 home_path = os.path.join(os.getcwd(),'data')
 code_path = os.path.join(home_path, 'codes')

@@ -4,9 +4,10 @@
 from download import Downloader
 import config
 from notification import Notification
-from log import logger
+from colorprint import logger
 import hashlib
 from bs4 import BeautifulSoup as bs
+import traceback
 import sys  
 import time
 reload(sys)  
@@ -66,7 +67,7 @@ def process(rules):
 		elif rule.selector:
 			text = process_selector(rule,html.text)
 		elif rule.types == 'github':
-			rule.selector = "div.repository-content"
+			rule.selector = "div.commit-group-title"
 			text = process_selector(rule,html.text)
 		else:
 			text = html.text
@@ -112,7 +113,8 @@ def monitor(app):
 			logger.info('sleep 120s')
 			time.sleep(120)
 	except Exception,e:
-		Notification('WAM run error').notification(e)
+		print traceback.print_exc()
+		Notification('WAM run error').notification(str(e))
 
 
 if __name__ == '__main__':
