@@ -6,7 +6,7 @@
 ## INSTALL & USE
 
 	pip install -r requirement.txt
-	python start.py
+	python start.py github,app
 
 修改config.ini的邮箱信息
 
